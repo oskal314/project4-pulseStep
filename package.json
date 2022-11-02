@@ -1,5 +1,5 @@
 {
-  "name": "project4-pulsestep",
+  "name": "pet-project-2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oskal314/project4-pulseStep.git"
+    "url": "git+https://github.com/oskal314/pet-project-2.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oskal314/project4-pulseStep/issues"
+    "url": "https://github.com/oskal314/pet-project-2/issues"
   },
-  "homepage": "https://github.com/oskal314/project4-pulseStep#readme",
+  "homepage": "https://github.com/oskal314/pet-project-2#readme",
   "devDependencies": {
     "browser-sync": "^2.27.10",
     "gulp": "^4.0.2",
