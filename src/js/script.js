@@ -53,7 +53,6 @@ $(document).ready(function () {
   });
 
   // validateForms
-
   function valideForms(form) {
     $(form).validate({
       rules: {
@@ -66,17 +65,12 @@ $(document).ready(function () {
           required: true,
           email: true
         }
-      }
-    }); $('#consultation form').validate({
-      rules: {
-        name: {
-          required: true,
-          minlength: 2
-        },
-        phone: "required",
+      }, messages: {
+        name: "Пожалуйста, введите своё имя",
+        phone: "Пожалуйста, введите своё номер телефона",
         email: {
-          required: true,
-          email: true
+          required: "Пожалуйста, введите свою почту",
+          email: "Ваш адрес электронной почты должен быть в формате name@domain.com"
         }
       }
     });
@@ -87,6 +81,7 @@ $(document).ready(function () {
 
   $('input[name=phone]').mask("+7 (999) 999-99-99");
 
+  // отправка
   $('form').submit(function (e) {
     e.preventDefault();
     $.ajax({
@@ -97,7 +92,6 @@ $(document).ready(function () {
       $(this).find("input").val('');
       $('#consultation, #order').fadeOut();
       $('.overlay, #thanks').fadeIn('slow');
-
       $('form').trigger('reset');
     });
     return false;
