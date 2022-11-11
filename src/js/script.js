@@ -84,9 +84,12 @@ $(document).ready(function () {
   // отправка
   $('form').submit(function (e) {
     e.preventDefault();
+    if (!$(this).valid()) {
+      return;
+    }
     $.ajax({
       type: "POST",
-      url: "../mailer/smart.php",
+      url: "sendmail.php",
       data: $(this).serialize()
     }).done(function () {
       $(this).find("input").val('');
@@ -103,6 +106,8 @@ $(document).ready(function () {
     $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
     e.preventDefault();
   });
+
+
 
 
 
