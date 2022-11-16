@@ -7,9 +7,6 @@
   <a href="https://github.com/oskaldev/pet-project-2/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/oskaldev/pet-project-2/blob/master/LICENSE" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/oskaldev/LandingPage" />
-  </a>
   <a href="https://twitter.com/oskaldev" target="_blank">
     <img alt="Twitter: oskaldev" src="https://img.shields.io/twitter/follow/oskaldev.svg?style=social" />
   </a>
@@ -29,7 +26,7 @@ npm install
 
 👤 **oskaldev**
 
-* Website: oskaldev
+* Website: PulseStep
 * Twitter: [@oskaldev](https://twitter.com/oskaldev)
 * Github: [@oskaldev](https://github.com/oskaldev)
 * LinkedIn: [@oskaldev](https://linkedin.com/in/oskaldev)
