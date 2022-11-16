@@ -46,6 +46,3 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2022 [oskaldev](https://github.com/oskaldev).<br />
 This project is [ISC](https://github.com/oskal314/pet-project-2/blob/master/LICENSE) licensed.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
