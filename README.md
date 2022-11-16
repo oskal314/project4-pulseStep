@@ -38,8 +38,3 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-## 📝 License
-
-Copyright © 2022 [oskaldev](https://github.com/oskaldev).<br />
-This project is [ISC](https://github.com/oskal314/pet-project-2/blob/master/LICENSE) licensed.
