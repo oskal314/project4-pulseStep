@@ -19,7 +19,7 @@
 ## Install
 
 ```sh
-npm install
+git clone https://github.com/oskaldev/LandingPagePulseStep.git
 ```
 
 ## Author
