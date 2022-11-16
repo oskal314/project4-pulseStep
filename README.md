@@ -52,3 +52,6 @@ git clone https://github.com/oskaldev/LandingPagePulseStep.git
 * Twitter: [@oskaldev](https://twitter.com/oskaldev)
 * Github: [@oskaldev](https://github.com/oskaldev)
 * LinkedIn: [@oskaldev](https://linkedin.com/in/oskaldev)
+* Telegram: [@oskaldev](https://t.me/oskaldev)
+
+
