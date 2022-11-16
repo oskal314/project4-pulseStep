@@ -52,11 +52,3 @@ git clone https://github.com/oskaldev/LandingPagePulseStep.git
 * Twitter: [@oskaldev](https://twitter.com/oskaldev)
 * Github: [@oskaldev](https://github.com/oskaldev)
 * LinkedIn: [@oskaldev](https://linkedin.com/in/oskaldev)
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/oskaldev/pet-project-2/issues). You can also take a look at the [contributing guide](https://github.com/oskaldev/pet-project-2/blob/master/CONTRIBUTING.md).
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
