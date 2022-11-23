@@ -13,7 +13,7 @@ $(document).ready(function () {
         }
       },
     ]
-  })
+  });
 
   $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function () {
     $(this)
@@ -29,7 +29,7 @@ $(document).ready(function () {
         $('.catalog-item__list').eq(i).toggleClass('catalog-item__list_active');
       });
     });
-  };
+  }
 
   toggleSlide('.catalog-item__link');
   toggleSlide('.catalog-item__back');
@@ -49,7 +49,7 @@ $(document).ready(function () {
     $(this).on('click', function () {
       $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
       $('.overlay, #order').fadeIn('slow');
-    })
+    });
   });
 
   // validateForms
@@ -102,7 +102,7 @@ $(document).ready(function () {
 
   // прокрутка якоря
   $("body").on('click', '[href*="#up"]', function (e) {
-    let fixed_offset = 100;
+    var fixed_offset = 100;
     $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
     e.preventDefault();
   });
@@ -115,8 +115,5 @@ $(document).ready(function () {
       $('.pageup').fadeOut();
     }
   });
-
-
-
 
 });
