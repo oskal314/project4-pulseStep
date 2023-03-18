@@ -1,4 +1,4 @@
-# LandingPagePulseStep
+# LandingPage
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/oskaldev/LandingPagePulseStep#readme" target="_blank">
@@ -16,7 +16,7 @@
 ## Install
 
 ```Github
-git clone https://github.com/oskaldev/LandingPagePulseStep.git
+git clone https://github.com/oskaldev/LandingPage.git
 ```
 
 ## Author
